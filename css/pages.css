@@ -1,7 +1,6 @@
 /*
   Ici : uniquement les positions "top" qui changent d'une page à l'autre.
-  Au lieu de classes numérotées (.pos2, .pos3, .pos4 comme avant, qui ne
-  disent rien sur leur rôle), chaque .cover a une classe qui dit de quelle
+  Chaque .cover a une classe qui dit de quelle
   page il s'agit, et chaque card une classe qui dit son rôle.
 */
 

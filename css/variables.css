@@ -1,0 +1,26 @@
+/*
+  Toutes les valeurs réutilisées dans le site (couleurs, polices, rayons...)
+  passent par des variables CSS ici. Résultat : si tu veux changer le brun
+  principal du site, tu le changes à un seul endroit, pas dans 10 fichiers.
+*/
+
+:root {
+  /* Couleurs */
+  --color-brown: #68403a;      /* couleur principale (header, cards) */
+  --color-cream: #f3f1d1;      /* fond clair des cards "hiragana" */
+  --color-cream-alt: #f3f2dc;  /* fond des boutons ronds */
+  --color-text-light: whitesmoke;
+  --color-text-dark: var(--color-brown);
+
+  /* Typographie */
+  --font-body: "Noto Sans JP", sans-serif;
+  --font-heading: "Yu Gothic", "Meiryo", sans-serif;
+
+  /* Rayons */
+  --radius-lg: 25px;
+  --radius-md: 10px;
+  --radius-pill: 30px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+}

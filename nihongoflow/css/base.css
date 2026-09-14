@@ -1,0 +1,53 @@
+/* Reset minimal + comportement global */
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: var(--font-body);
+}
+
+/* En-tête présent sur toutes les pages */
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--color-brown);
+  padding: 20px 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  color: var(--color-text-light);
+  font-family: var(--font-heading);
+}
+
+.header nav {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  display: inline-block;
+
+  padding: 10px 20px;
+  background-color: var(--color-text-light);
+  color: black;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+
+  transition: transform var(--transition-fast);
+}
+
+.nav-btn:hover {
+  transform: scale(1.05);
+}
+
+.nav-btn:active {
+  transform: scale(0.95);
+}

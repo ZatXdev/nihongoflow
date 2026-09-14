@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NihongoFlow - Hiragana</title>
+
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>NihongoFlow</h1>
+
+    <nav>
+      <a class="nav-btn" href="../../index.html">Accueil</a>
+      <a class="nav-btn" href="../kana.html">Kana</a>
+      <a class="nav-btn" href="../vocabulary.html">Vocabulaire</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cover kana-detail-cover">
+
+      <div class="card card--dark card--intro">
+        <h2>Bienvenue sur la page des Hiragana</h2>
+        <p>Les Hiragana sont l'un des trois systèmes d'écriture utilisés en japonais. Ils sont indispensables pour commencer à lire et écrire la langue.</p>
+        <p>Découvre chaque caractère, apprends sa prononciation et entraîne-toi progressivement pour les mémoriser.</p>
+      </div>
+
+      <div class="card card--light card--exercise">
+        <h1>Exercice</h1>
+        <p>Apprends les 46 kana avec des exercices</p>
+        <a href="#hiragana" class="circle-btn">&#10142;</a>
+      </div>
+
+      <div class="card card--light card--secondary">
+        <h1>Katakana</h1>
+        <p>Passe aux 46 katakana</p>
+        <a href="katakana.html" class="circle-btn">&#10142;</a>
+      </div>
+
+    </div>
+
+    <section id="hiragana" class="kana-grid" data-kana-source="../../js/data/hiragana.json" data-layout="gojuon">
+      <!-- Rempli automatiquement par js/main.js, aligné comme le tableau des gojūon -->
+    </section>
+  </main>
+
+  <script src="../../js/main.js"></script>
+
+</body>
+
+</html>
